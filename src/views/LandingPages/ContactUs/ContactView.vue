@@ -6,7 +6,8 @@ import DefaultNavbar from "@/examples/navbars/NavbarDefault.vue";
 import DefaultFooter from "@/examples/footers/FooterDefault.vue";
 
 //image
-import image from "@/assets/img/illustrations/illustration-signin.jpg";
+import image from "@/assets/img_new/cut2.jpg";
+//import image from "@/assets/img/illustrations/illustration-signin.jpg";
 
 //material components
 import MaterialInput from "@/components/MaterialInput.vue";
@@ -39,7 +40,7 @@ onMounted(() => {
       <div class="container">
         <div class="row">
           <div
-            class="col-6 d-lg-flex d-none h-100 my-auto pe-0 position-absolute top-0 start-0 text-center justify-content-center flex-column"
+            class="col-6 d-lg-flex d-none h-100 my-auto pe-0 position-absolute top-0 start-10 text-center justify-content-center flex-column"
           >
             <div
               class="position-relative h-100 m-3 px-7 border-radius-lg d-flex flex-column justify-content-center"
@@ -67,9 +68,7 @@ onMounted(() => {
               </div>
               <div class="card-body">
                 <p class="pb-3">
-                  For further questions, including partnership opportunities,
-                  please email hello@creative-tim.com or contact using our
-                  contact form.
+                  如果您有各方面的问题，请联系我们
                 </p>
                 <form id="contact-form" method="post" autocomplete="off">
                   <div class="card-body p-0 my-3">
@@ -78,8 +77,8 @@ onMounted(() => {
                         <MaterialInput
                           class="input-group-static mb-4"
                           type="text"
-                          label="Full Name"
-                          placeholder="Full Name"
+                          label="姓名"
+                          placeholder="您的姓名"
                         />
                       </div>
                       <div class="col-md-6 ps-md-2">
@@ -96,8 +95,8 @@ onMounted(() => {
                         id="message"
                         class="input-group-static mb-4"
                         :rows="6"
-                        placeholder="Describe your problem in at least 250 characters"
-                        >How can we help you?</MaterialTextArea
+                        placeholder="简述您发生的问题"
+                        >您的问题</MaterialTextArea
                       >
                     </div>
                     <div class="row">
@@ -106,7 +105,7 @@ onMounted(() => {
                           variant="gradient"
                           color="success"
                           class="mt-3 mb-0"
-                          >Send Message</MaterialButton
+                          >发送</MaterialButton
                         >
                       </div>
                     </div>

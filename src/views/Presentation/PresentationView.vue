@@ -76,9 +76,9 @@ onUnmounted(() => {
   <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
     <PresentationCounter />
     <PresentationInformation />
-    <PresentationExample :data="data" />
+    <!-- <PresentationExample :data="data" /> -->
     <PresentationPages />
-    <BuiltByDevelopers />
+    <!-- <BuiltByDevelopers /> -->
 
     <div class="container">
       <div class="row">
@@ -127,9 +127,9 @@ onUnmounted(() => {
         </div>
       </div>
     </div>
-    <PresentationTestimonials />
+    <!-- <PresentationTestimonials /> -->
 
-    <div
+    <!-- <div
       class="container-fluid mt-sm-5 border-radius-xl"
       :style="{
         background: 'linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25))'
@@ -167,9 +167,9 @@ onUnmounted(() => {
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <div class="container">
+    <!-- <div class="container">
       <div class="row">
         <div class="d-flex flex-column w-100 text-center p-5 mb-8">
           <h3>Available on these technologies</h3>
@@ -260,8 +260,8 @@ onUnmounted(() => {
           </div>
         </div>
       </div>
-    </div>
-    <div class="py-5">
+    </div> -->
+    <!-- <div class="py-5">
       <div class="container">
         <div class="row">
           <div class="col-lg-5 ms-auto">
@@ -290,7 +290,7 @@ onUnmounted(() => {
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
   <DefaultFooter />
 </template>
